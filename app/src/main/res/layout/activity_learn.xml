@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".LearnActivity">
+
+    <TextView
+        android:id="@+id/welcomeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="327dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="25dp"
+        android:text="Welcome to Learning MySQL"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#FF1744"
+        android:textSize="60sp" />
+
+    <Spinner
+        android:id="@+id/topicSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:popupTheme="@style/CardView" />
+
+    <Button
+        android:id="@+id/selectTopicButton"
+        android:layout_width="250dp"
+        android:layout_height="125dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:background="#FF5733"
+        android:text="Select Topic"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        />
+
+</LinearLayout>

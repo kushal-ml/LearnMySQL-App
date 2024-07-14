@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Assignment1</string>
+    <string-array name="topics_array">
+        <item>Introduction</item>
+        <item>MySQL SELECT Statement</item>
+        <item>MySQL WHERE Clause</item>
+        <item>MySQL UPDATE Statement</item>
+    </string-array>
+</resources>
